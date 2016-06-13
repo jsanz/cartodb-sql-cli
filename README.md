@@ -1,10 +1,12 @@
 # cartodb-sql-cli
 
-CLI application to interact with CartoDB SQL API
+Command line interface to interact with CartoDB SQL API. This is basically a
+command line interface that wraps the [CartoDB python SDK] for your convenience.
 
 ## Installation
 
-Create a [virtual environment]():
+It's advised to create a [virtual environment]. Note that this code is only
+tested with Python 3, it will probably work with version 2, though.
 
 ```bash
 virtualenv -p python3 env
@@ -25,3 +27,6 @@ be quite straight forward. You can set these environment variables so you don't 
 * `CARTODB_USER_NAME`
 * `CARTODB_API_KEY`
 
+
+[CartoDB python SDK]: https://github.com/CartoDB/cartodb-python
+[virtual environment]: https://docs.python.org/3/library/venv.html#module-venv
